@@ -30,7 +30,7 @@ PORT=3000
 </ol>
 
 ```bash
-git clone https://github.com/seu-usuario/api-expenses.git
+git clone https://github.com/railan-bernardo-oficial/api-expenses.git
 cd api-expenses
 ```
 <ol>
@@ -138,6 +138,8 @@ npm start
 }
 
 ```
+
+# Prisma Schema
 
 ```prisma
 generator client {

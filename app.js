@@ -213,7 +213,7 @@ app.delete('/expense/delete/:id', authenticateToken, async (req, res)=>{
 })
 
 app.get('/', (req, res) => {
-    res.send('Home ....');
+    res.send('API ....');
 });
 
 

@@ -213,7 +213,7 @@ app.delete('/expense/delete/:id', authenticateToken, async (req, res)=>{
 })
 
 app.get('/', (req, res) => {
-    res.send('API ....');
+    res.send('<img style="width: 100%; height: 100%; object-fit: cover; position: absolute; top:0; left:0;" src="https://support.discord.com/hc/en-us/article_attachments/206303208/eJwVyksOwiAQANC7sJfp8Ke7Lt15A0MoUpJWGmZcGe-ubl_eW7zGLmaxMZ80A6yNch-rJO4j1SJr73Uv6Wwkcz8gMae8HeXJBOjC5NEap42dokUX_4SotI8GVfBaYYDldr3n3y_jomRtD_H5ArCeI9g.zGz1JSL-9DXgpkX_SkmMDM8NWGg.gif" alt="api"/>');
 });
 
 
